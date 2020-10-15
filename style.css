@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    max-width: 300px;
+    width: 85%;
+    padding: 40px;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    background: #191919;
+    text-align: center;
+    border-radius: 12px;
+}
+ .box h1{
+     color:white;
+     text-transform: uppercase;
+     font-weight: 500 ;
+ }
+.box input[type = "text"], .box input[type = "password"]{
+    border:0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    max-width: 200px;
+    width: 85%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    max-width: 100%;
+    width: 85%;
+   border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+    border:0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s; 
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.box input[type = "submit"]:hover{
+    background:#2ecc71 ;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .box{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .box{
+        width: 60%;
+    }
+}
