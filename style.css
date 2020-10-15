@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Chilanka', cursive;
     background: url(img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -43,7 +43,7 @@ body {
     color: white;
     border-radius: 24px;
     transition: 0.25s;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Chilanka', cursive;
 }
 .box input[type = "text"]:focus, .box input[type = "password"]:focus{
     max-width: 100%;
@@ -63,7 +63,7 @@ body {
     border-radius: 24px;
     transition: 0.25s; 
     cursor: pointer;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Chilanka', cursive;
     text-transform: uppercase;
     letter-spacing: .2em;
 }
